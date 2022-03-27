@@ -4,7 +4,7 @@ import { Container } from 'react-bootstrap'
 const HomeScreen = () => {
   return (
     <div>
-      <Container>HomeScreen</Container>
+      <Container>Home Screen</Container>
     </div>
   )
 }

@@ -4,7 +4,7 @@ import { Container } from 'react-bootstrap'
 const SharedSpace = () => {
   return (
     <div>
-      <Container>SharedSpace</Container>
+      <Container>Shared Space</Container>
     </div>
   )
 }

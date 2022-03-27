@@ -1,0 +1,11 @@
+.logo {
+  width: 3.125rem;
+  height: 3.125rem;
+  margin: 0.313rem;
+  cursor: pointer;
+}
+
+.search-box {
+  padding-right: 16px;
+  padding-top: 5px;
+}

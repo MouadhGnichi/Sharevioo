@@ -8,6 +8,9 @@ import TopThree from './Screens/TopThree'
 import ContactUs from './Screens/ContactUs'
 import SharedSpace from './Screens/SharedSpace'
 import Login from './Screens/Login'
+import Dashboard from './Screens/Dashboard'
+import MyPosts from './Screens/MyPosts'
+import MyQuestions from './Screens/MyQuestions'
 
 const App = () => {
   return (
@@ -21,6 +24,9 @@ const App = () => {
               <Route path='/top-three' element={<TopThree />} />
               <Route path='/contact-us' element={<ContactUs />} />
               <Route path='/shared-space' element={<SharedSpace />} />
+              <Route path='/dashboard' element={<Dashboard />} />
+              <Route path='/my-questions' element={<MyQuestions />} />
+              <Route path='/my-posts' element={<MyPosts />} />
               <Route path='/login' element={<Login />} />
             </Routes>
           </Container>

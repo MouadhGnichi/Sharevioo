@@ -4,7 +4,7 @@ import { Container } from 'react-bootstrap'
 const ContactUs = () => {
   return (
     <div>
-      <Container>ContactUs</Container>
+      <Container>Contact Us</Container>
     </div>
   )
 }
